@@ -1,8 +1,15 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Highlights from "./components/Highlights"
 
 
 function App() {
   return (
-   <h1 className="text-4xl">hello</h1>
+   <main>
+      <Navbar />
+      {/* <Hero />
+      <Highlights /> */}
+   </main>
   )
 }
 

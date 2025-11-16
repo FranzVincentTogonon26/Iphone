@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Highlights from "./components/Highlights"
-
+import Hero from  "./components/Hero"
 
 function App() {
   return (
    <main>
       <Navbar />
-      {/* <Hero />
-      <Highlights /> */}
+      <Hero />
+     <div>
+      hello
+     </div>
    </main>
   )
 }
